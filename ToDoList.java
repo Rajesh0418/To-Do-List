@@ -9,9 +9,9 @@ class invalidOptionEnteredException extends Exception
 }
 class tasks
 {
-    static void validate(int playerChoice) throws invalidOptionEnteredException   
+    static void validate(int choice) throws invalidOptionEnteredException   
     {
-        if(5<playerChoice) 
+        if(5<choice) 
         {
             System.out.println();
             throw new invalidOptionEnteredException("The option is invalid...please enter between 1 and 4");
