@@ -7,7 +7,7 @@ class invalidOptionEnteredException extends Exception
         super(s);
     }
 }
-class tasks
+class Tasks
 {
     static void validate(int choice) throws invalidOptionEnteredException   
     {
@@ -77,7 +77,7 @@ class tasks
            System.out.println("-----------------------------------------");
     }
 }
-class ToDoList extends tasks{
+class ToDoList extends Tasks{
     public static void main(String ar[])
     {
         System.out.println("\t\t\t-:::  TO DO LIST  :::-");
